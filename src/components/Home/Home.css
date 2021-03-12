@@ -1,0 +1,18 @@
+header {
+    text-align: center;
+    height: 200px;
+    background-color: #61dafb;
+    padding: 5%;
+  }
+  footer{
+    height: 150px;
+    
+  }
+  .icons{
+    margin-left: 40%;
+    font-size: 3em;
+    
+  }
+  img{
+      width: 100%;
+       }

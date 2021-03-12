@@ -1,0 +1,50 @@
+.upper{
+    text-align: center;
+    height: 200px;
+    background-color:lightslategray;
+    padding: 5%;
+    
+}
+.upper img{
+    height: 150px;
+    width: 250px;
+}
+.container{
+    display: flex;
+    background-color: rebeccapurple;
+    width: 80%;
+    margin-top: 5%;
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-bottom: 2%;
+    border-radius: 20px;
+    float: left;
+    padding: 3%;
+}
+.leagueInfo{
+   color: lightyellow; 
+   width: 25%;
+   padding: 5%;
+   float: left;
+}
+.leagueInfo img{
+    height:20px;
+    width:20px;
+}
+.league-image{
+    width: 40%;
+   padding-top: 8%;
+   padding-left: 25%;
+   padding-right: 2%;
+    border: lightslategray;
+    border-radius: 5%;
+}
+.icons{
+    margin-left: 40%;
+    font-size: 3em;
+  }
+  @media only screen and (max-width: 768px){
+    [class*="col-"] {
+        width: 100%;
+      }
+  }
