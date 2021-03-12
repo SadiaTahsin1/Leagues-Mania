@@ -29,21 +29,21 @@ const ShowIndividual = (props) => {
             
             </div>
             <div className="container">
-            <div className="leagueInfo col-2">
-            <h1>{strLeague}</h1> 
-            <p><img src={founded} alt=""></img>  Founded: {intFormedYear}</p> 
-            <p><img src={flag} alt=""></img> Country: {strCountry}</p>
-            <p><img src={game} alt=""></img> Sport Type: {strSport}</p>
-            <p><img src={gen} alt=""></img> Gender: {strGender}</p>
+                <div className="leagueInfo col-2">
+                <h1>{strLeague}</h1> 
+                <p><img src={founded} alt=""></img>  Founded: {intFormedYear}</p> 
+                <p><img src={flag} alt=""></img> Country: {strCountry}</p>
+                <p><img src={game} alt=""></img> Sport Type: {strSport}</p>
+                <p><img src={gen} alt=""></img> Gender: {strGender}</p>
            
-            </div>
+                </div>
            
-            <div className="league-image col-3">
-             {/* <img src={props.league.strFanart2} alt=""/> */}
-             {/* <img src={Facebook} alt=""/>
-              */}
-             {showImg}
-            </div>
+                <div className="league-image col-3">
+                {/* <img src={props.league.strFanart2} alt=""/> */}
+                {/* <img src={Facebook} alt=""/>
+                */}
+                {showImg}
+                </div>
             </div>
             <div className="textsection col-4">
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic vitae earum, distinctio sed quisquam ut quaerat doloribus illo adipisci velit qui repudiandae eius, minima aut numquam illum fugit animi et.
